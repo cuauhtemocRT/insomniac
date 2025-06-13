@@ -1,0 +1,223 @@
+* {
+
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "lato";
+  font-size: 16px;
+  background-image: url(../img/fondoB.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+
+}
+.contenedor {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
+}
+header {
+  width: 100%;
+  height: 600px;
+  
+
+}
+header .menu {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px;
+}
+header .menu a {
+  display: inline-block;
+  padding: 15px 10px;
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 300;
+}
+header .menu a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+header .contenedor-textos-header {
+  margin: 120px 0;
+  text-align: center;
+}
+
+header .contenedor-textos-header .titulo-header {
+  font-family: 'Rock Salt', cursive;
+  font-size: 100px;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+header .contenedor-textos-header .linea {
+  width: 600px;
+  margin: auto;
+  height: 3px;
+  background:#fff;
+  margin-bottom: 20px;
+}
+header .contenedor-textos-header .subtitulo-header{
+    font-size: 26px;
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+header .contenedor-textos-header .call-to-action{
+    display: inline-block;
+    padding: 10px 10px;
+    border: 1px solid #15a4fa;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+}
+header .contenedor-textos-header .call-to-action:hover{
+    background: #15a4fa;
+    color: #fff;
+}
+main .acerca-de{
+  width: 100%;
+  height: 600px;
+  background: rgb(27, 26, 26);
+  padding: 45px 0;
+  padding-top: 80px;
+  text-align: center;
+}
+main .acerca-de .contenedor-textos-acerca .titulo-acerca{
+  font-size: 24px;
+  font-weight: 900;
+  color: #999999;
+  margin-bottom: 20px;    
+}
+main .acerca-de .contenedor-textos-acerca .parrafo-acerca{
+  color: #999999;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+main .iconos{
+  padding: 60px 0;
+}
+.contenedor-iconos{
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 20%;
+  margin-bottom: 20%;
+}
+.contenedor-iconos .icono-individual{
+  width: 33%;
+  margin: 20px 0;
+}
+.contenedor-iconos .icono-individual h3{
+  margin: 10px 0;
+}
+main .portafolio{
+  background: rgb(27, 26, 26);
+  padding: 60px 0;
+}
+main .contenedor-textos-portafolio{
+  text-align: center;
+}
+main .contenedor-textos-portafolio .titulo-portafolio{
+  color: #999999;
+  font-weight: 900;
+  font-size: 28px;
+  margin-bottom: 20px ;
+}
+main .contenedor-textos-portafolio .parrafo-portafolio{
+  font-weight: normal;
+  color: #999999;
+  margin-bottom: 60px;
+}
+main .portafolio .contenedor-portafolio{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+main .portafolio .contenedor-portafolio img{
+  width: 32%;
+  margin: auto;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+main .portafolio .contenedor-portafolio img:hover{
+  opacity: .6;
+}
+footer{
+  width: 100%;
+  height: 600px;
+  padding: 60px 0;
+  background-image: url(../img/footer.jpg);
+}
+footer .footer-textos{
+  text-align: center;
+  color: #fff;
+}
+footer .footer-textos h2{
+  font-size: 38px;
+  font-weight: 900;
+  margin-bottom: 5px;
+}
+footer .footer-textos .titulo-parrafo{
+  font-weight: 300;
+  color: #999999;
+  margin-bottom: 45px;
+}
+footer .formulario{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+}
+footer .formulario .nombre-contacto, footer .formulario .nombre-correo, footer .formulario .mensaje{
+  display: inline-block;
+
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  background: none;
+  border: 1px solid #999999;
+  color: #999999;
+  border-radius: 3px;
+  font-family: 'lato';
+  font-weight: 300;
+  font-size: 18px;
+}
+footer .formulario .mensaje{
+  max-width: 100%;
+  min-width: 100%;
+  min-height: 150px;
+  max-height: 150px;
+}
+footer .formulario .derecha{
+  display: flex;
+  justify-content: flex-end;
+}
+footer .formulario .boton-envio{
+  display: inline-block;
+  padding: 10px 20px;
+  background: none;
+  border: 1px solid #15a4fa;
+  color: #fff;
+  border-radius: 3px;
+}
+footer .formulario .boton-envio:hover{
+   background: #15a4fa;
+   color: #fff;
+   cursor: pointer;
+}
+.acerca-de img {
+  margin-top: 30px;
+  margin-left: 180px;
+  margin-right: 180px;
+  margin-bottom: 80px;
+  width: 500px;
+  height: 500px;
+  border-color: solid grey;
+}
