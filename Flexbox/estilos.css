@@ -99,7 +99,8 @@ main .acerca-de .contenedor-textos-acerca .titulo-acerca{
 main .acerca-de .contenedor-textos-acerca .parrafo-acerca{
   color: #999999;
   font-weight: 600;
-  margin-bottom: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 main .iconos{
   padding: 60px 0;
