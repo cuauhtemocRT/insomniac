@@ -18,6 +18,7 @@ body {
   width: 90%;
   max-width: 1000px;
   margin: auto;
+  background-color: black;
   overflow: hidden;
 }
 header {
