@@ -229,3 +229,17 @@ footer .contenedor {
   background-color: black;
   overflow: hidden;
 }
+main .acerca-donar .contenedor-textos-acerca .titulo-donacion{
+  font-size: 24px;
+  font-weight: 900;
+  color: #b31a1a;
+  margin-bottom: 20px;    
+}
+main .acerca-donar{
+  width: 100%;
+  height: 3cqh00px;
+  background: rgb(0, 0, 0);
+  padding: 45px 0;
+  padding-top: 80px;
+  text-align: center;
+}
